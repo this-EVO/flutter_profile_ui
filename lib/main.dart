@@ -68,7 +68,7 @@ class MyInfoScreen extends StatelessWidget {
                 SizedBox(height: 8),
                 Text(
                   "I am a passionate Software Engineer from Egypt 🇪🇬.",
-                  style: TextStyle(fontSize: 16, color: Colors.black),
+                  style: TextStyle(fontSize: 14, color: Colors.black),
                 ),
                 Divider(
                   thickness: 0.3,
@@ -96,7 +96,7 @@ class MyInfoScreen extends StatelessWidget {
                     Icon(Icons.feed, color: Colors.grey),
                     Text(
                       "Posts",
-                      style: TextStyle(fontSize: 16, color: Colors.black38),
+                      style: TextStyle(fontSize: 14, color: Colors.black38),
                     ),
                   ],
                 ),
@@ -135,8 +135,8 @@ Widget _buildInfoRow({required IconData icon, required String text}) {
   return Row(
     spacing: 10,
     children: [
-      Icon(icon, color: Colors.black45, size: 20),
-      Text(text, style: const TextStyle(fontSize: 15, color: Colors.black54)),
+      Icon(icon, color: Colors.black45, size: 18),
+      Text(text, style: const TextStyle(fontSize: 12, color: Colors.black54)),
     ],
   );
 }
