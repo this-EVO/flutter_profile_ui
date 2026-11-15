@@ -1,16 +1,18 @@
-# info_card
+# Flutter Profile UI
 
-A info card Flutter project.
+A clean, responsive developer profile screen built with Flutter, featuring user details, contact info, and a 3-column scrollable post grid.
 
-## Getting Started
+## Preview
+https://github.com/user-attachments/assets/6c7bf6be-efb9-4c49-9d0a-1fd2d5682815
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Circular profile avatar with verified badge
+- Clean layout using `Column`, `Row`, and `spacing` properties
+- Reusable contact information rows
+- 3-column photo grid powered by `GridView.builder` with loading and error handling
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
